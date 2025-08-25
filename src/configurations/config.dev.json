@@ -7,11 +7,11 @@
 
   "database": {
     "dialect": "postgres",
-    "host": "...",
+    "host": "localhost",
     "port": 5432,
-    "database": "...",
-    "username": "...",
-    "password": "..."
+    "database": "igo2",
+    "username": "postgres",
+    "password": "password"
   },
   "geoServices" : {
     "getInfoFromCapabilities": false
