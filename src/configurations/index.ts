@@ -57,7 +57,7 @@ export interface GeoServicesOptions {
   getInfoFromCapabilities: boolean;
 }
 
-export function getDatabaseConfig (): IDataConfiguration {
+export function getDatabaseConfig (): IDataConfigurationExtended {
   return {
     host: process.env.DB_HOST,
     port: parseInt(process.env.DB_PORT || '5432'),
