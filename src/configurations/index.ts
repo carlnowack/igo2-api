@@ -45,6 +45,10 @@ interface ILocalhostConfiguration {
   basePaths: string[];
 }
 
+interface IDataConfigurationExtended extends IDataConfiguration {
+  database: string;
+}
+
 export interface IgoApiIServerConfiguration extends IServerConfiguration {
   ldap: ILdapConfiguration[];
   localhost?: ILocalhostConfiguration;
